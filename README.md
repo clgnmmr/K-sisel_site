@@ -1,3 +1,4 @@
 
-[![Kadir-Tepecik](![Screenshot_2](![Screenshot_3](https://user-images.githubusercontent.com/101714396/173325438-da31f8e9-7cf3-490a-8e11-c8f520ead4bd.jpg))
+[![Kadir-Tepecik](![Screenshot_3](https://user-images.githubusercontent.com/101714396/173325918-dba540aa-b5e8-4a7c-9bcd-147f6f0e2009.jpg)
+
 ](http://kadirtepecik.epizy.com/index.html).
