@@ -45,15 +45,17 @@ padding: 0px;
     float: right;
     position: relative;
     top: 10px;
-    right: 50px;
+    right: 60px;
 }
 #isim1{
     font-size: 10px;
+
     font-weight: bolder;
     float: right;
     position: relative;
-    top: 10px;
+    top: 20px;
     right: 10px;
+   
 }
 /* sosyal medya ıkonları */
 
@@ -229,7 +231,7 @@ h3{
     text-align: center;
 }
 
-#certifica{
+#certi{
 
     width: 35px;
     height: 35px ;
