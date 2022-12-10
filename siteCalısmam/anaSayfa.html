@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KADİR TEPECİK WEBSİTE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <style>
+        header,
+footer {
+  background-image:url("lazım resimler/uzay2.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-color: rgb(255, 255, 255);
+background-position: top-left;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  border-width: 3px;
+  opacity: 0.6;
+ 
+}
+body.index{
+  
+  background-image:url("lazım resimler/uzay2.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: rgb(255, 255, 255);
+background-position: top-left;
+
+}
+body.hakkimizda{
+  
+  background-image:url("lazım resimler/uzay1.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: rgb(255, 255, 255);
+background-position: top-left;
+
+}
+body.sertifika{
+  
+  background-image:url("lazım resimler/b01.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: rgb(255, 255, 255);
+background-position: top-left;
+
+}
+body.giris{
+  
+  background-image:url("lazım resimler/baglantı.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: rgb(255, 255, 255);
+background-position: top-left;
+
+}
+footer p {
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding :5px;
+  text-transform: uppercase;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: rgb(0, 0, 0);
+}
+.sayfalar a:visited{
+  color: crimson;
+}
+.iletisim a:visited{
+  color: khaki;
+}
+footer>div>a:visited{
+  color: khaki;
+}
+#sola{
+margin-left: 10px;
+  width:500px;
+ height: 400px;
+  float: left;
+  border-radius: 50px;
+padding:0 10px 10px 0;
+}
+#saga{
+  
+position: absolute;
+bottom: 0px;
+right: 0px;
+}
+#icerik{
+  margin-top: 20px;
+margin-bottom: 20px;
+
+min-height: 500px;
+border-radius: 10px;
+  float:inline-end
+
+}
+#bilim{
+  margin-top: 50px;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+.metin1{
+margin-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+ 
+}
+.metin2{
+  margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+   width: 500px;
+  }
+#conteyner{
+display: flex;
+justify-content: space-around;
+
+
+}
+#conteyner div{
+  
+    font-size: larger;
+    border-radius: 15px;
+    box-shadow: rgb(24, 23, 23);
+   
+   
+
+}
+#conteyner #yazi{
+  color: rgb(255, 255, 255);
+  margin: 50px;
+  font-size: 20px;
+margin-top: 10px;
+width: 500px;
+
+}
+
+
+
+.containere {
+  display: flex;
+  overflow: auto; 
+  margin-top: 50px;
+}
+
+.containere.z{
+  width: 100%;
+  height: 500px;
+  flex-flow: row nowrap;
+}
+/* scroll-snap */
+.z.mandatory-scroll-snapping {
+  scroll-snap-type: x mandatory;
+}
+
+
+.iletisim-sayfa{
+  color: white;
+}
+#certi{
+
+  width: 200px;
+  height: 200px ;
+  border-radius: 40px;
+}
+
+
+.container {
+  display: flex;
+  overflow: auto;
+  flex: none;
+  margin-top: 50px;
+}
+
+.container.x {
+  width: 100%;
+  height:400px;
+  flex-flow: row nowrap;
+  color: white;
+}
+
+
+/* scroll-snap */
+.x.mandatory-scroll-snapping {
+  scroll-snap-type: x mandatory;
+}
+
+
+
+.container > div {
+  text-align: center;
+  scroll-snap-align: center;
+  flex: none;
+}
+
+.x.container > div {
+  font-size: 42px;
+ width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+    
+</head>
+<body class="anasayfa">
+    <header>
+        <div class="iletisim">
+            <a href="mailto:QA_kadirTepecik@outlook.com"><i class="fa-solid fa-paper-plane"></i>Eposta</a>
+            <a target="_blank" href="https://github.com/clgnmmr"><i class="fa-brands fa-github"></i>GITHUB</a>
+            <a target="_blank" href="https://www.linkedin.com/in/kadirtepecik/"><i class="fa-brands fa-linkedin"></i>LINKEDIN</a>
+            <a target="_blank" href="https://www.facebook.com/kadir.tepecik"><i class="fa-brands fa-facebook"></i>Facebook</a>
+        </div>
+       <div ><font color="white">WELCOME TO THE WEBSİTE
+        KADİR TEPECİK</font>
+       </div> 
+        <div class="sayfalar">
+            <a href="index.html">Homepage</a>
+            <a href="hakkimizda.html">About us</a>
+            <a href="sertifika.html">certificates</a>
+            <a href="giris.html">concat</a>
+        </div>
+
+    </header>
+   
+
+    
+    <article id="icerik">
+    <br>
+    <br>
+    <h1 class="metin1" style="text-align:center" size="5">JOURNEY FROM ARCHITECTURE TO SOFTWARE</h1>
+
+    
+     <div>
+         <img src="lazım resimler/yazilim_proje_gelistirme.jpg" id="sola" >
+         <p class="metin1">
+            When I read architecture, I used 3D programs. I was wondering how these programs were done,
+             I did research and found myself in the software industry. 
+            I learned that many features were made by writing code and I looked for the software to learn.
+            I thought the <strong>Automation Engineer </strong>  part would be comfortable for me and I could understand everything.
+             When we understand, I started pulling me and I continue to improve myself in many areas.
+             I know that what I have learned is very valuable to me and I continue to learn.
+             <br>
+             <br>
+            <strong> Automation Engineer</strong> 
+            
+            <br>
+            - Java, Selenium/webdriver,Appium, Cucumber BDD, TestNG, JUnit, Jenkins, JMeter, SQL, Api, Jira, Postman, Github knowledgeable.
+            <br>
+            <br>
+            - Experienced as a test automation engineer with both manual and automatic test skills in a agile environment.
+            <br>
+            <br>
+            - I worked using all stages of SDLC and STLC.
+            <br>
+            <br>
+            - Test strategies, test plans and test scenarios, test scenario and test scenarios are experienced in designing, development and documenting.
+            <br>
+            <br>
+            - Experienced in creating user stories and defining user stories accept criteria.
+            <br>
+            <br>
+            - Experienced in database tests, JDBC test was performed with SQL, api tests were performed.
+            <br>
+            <br>
+            - Smoke test, functional test and regression test, positive test, negative test, parallel test and cross-browser test, complex SQL queries with back-end test and API tests experienced in automating.
+            <br>
+            <br>
+            - Experienced in the defect life cycle by using defect monitoring tools such as jira.
+         </p> 
+     </div>
+     <br>
+     
+    <div class="container x mandatory-scroll-snapping" >  
+       
+    <div>
+                <div id="conteyner"> 
+           <div><a target="_blank"  href="https://www.appium.org/"> <img id="bilim" src="lazım resimler/appium.png" title="Appium" ></a></div>
+           <div><a target="_blank"  href="https://www.selenium.dev/"> <img id="bilim" src="lazım resimler/selenium.png"  title="selenium" ></a></div>
+           <div><a target="_blank"  href="https://www.cypress.io/"> <img id="bilim" src="lazım resimler/cypress.png" title="cypress" ></a></div>
+        </div>
+        <div id="conteyner">
+            <div id="yazi">Appium is an open-source tool for automating native, mobile web, and hybrid
+                 applications on iOS mobile, Android mobile, and Windows desktop platforms. Native apps 
+                 are those written using the iOS, Android, or Windows SDKs. Mobile web apps are web apps 
+                 accessed using a mobile browser (Appium supports Safari on iOS and Chrome or the built-in 
+                 'Browser' app on Android). Hybrid apps have a wrapper around a "webview" -- a native control 
+                 that enables interaction with web content. Projects like Apache Cordova make it easy to build 
+                 apps using web technologies that are then bundled into a native wrapper, creating a hybrid app.........</div>
+            <div id="yazi">Selenium is a free (open-source) automated testing framework used to validate
+                 web applications across different browsers and platforms. You can use multiple programming
+                  languages like Java, C#, Python, etc to create Selenium Test Scripts. 
+                esting done using the Selenium testing tool is usually referred to as Selenium Testing
+                Selenium is a free, open-source automation testing suite for web applications across different browsers and platforms.
+                 It is somewhat similar to HP QuickTest Pro (QTP, currently UFT). However, Selenium focuses on automating
+                  web-based applications.
+
+                Testing done using Selenium is usually referred to as Selenium testing. Remember, only testing web applications is
+                possible with Selenium. You cannot use it to test desktop applications or mobile applications............</div>     
+            <div id="yazi">Cypress is a next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing modern applications.
+                Cypress is most often compared to Selenium; however Cypress is both fundamentally and architecturally different. Cypress is not constrained by the same restrictions as Selenium.
+                Our users are typically developers or QA engineers building web applications using modern JavaScript frameworks.........
+                 </div>     
+        </div>
+    </div>
+    <div>
+        <div id="conteyner" >  
+            <div><a target="_blank"  href="https://www.oracle.com/tr/java/"> <img id="bilim" src="lazım resimler/java.jpg"  title="java" ></a>
+            </div>
+            <div><a target="_blank"  href="https://tr.wikipedia.org/wiki/HTML"> <img id="bilim" src="lazım resimler/HTML.png" title="HTML" ></a>
+            </div>
+            <div><a target="_blank"  href="https://tr.wikipedia.org/wiki/CSS"> <img id="bilim" src="lazım resimler/CSS.png" title="CSS" ></a>
+            </div>
+        </div>
+        <div id="conteyner">
+            <div id="yazi">Java is an open source, object-oriented, ground-independent, highly efficient, 
+                multi-functional, high-level, step-by-step language developed by James Gosling, an engineer 
+                at Sun Microsystems.
+
+                Java is a programming language developed by James Gosling of Sun Microsystems and was
+                 released in 1995 as a core component of Sun Microsystems. Although this language derives
+                  many syntaxes from C and C++, these derivations include a simpler object model and less 
+                  low-level possibilities. Java applications are typical bytecode (class file) that can run
+                   on any Java Virtual Machine (JVM) regardless of computer architecture........</div>
+            <div id="yazi">The HyperText Markup Language or HTML is the standard markup language for documents 
+                designed to be displayed in a web browser. It can be assisted by technologies such as Cascading 
+                Style Sheets (CSS) and scripting languages such as JavaScript.
+
+                Web browsers receive HTML documents from a web server or from local storage and render the documents
+                 into multimedia web pages. HTML describes the structure of a web page semantically and originally 
+                 included cues for the appearance of the document..........</div>     
+            <div id="yazi">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language 
+                such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology
+                 of the World Wide Web, alongside HTML and JavaScript.
+
+                CSS is designed to enable the separation of content and presentation, 
+                including layout, colors, and fonts. This separation can improve content accessibility;
+                 provide more flexibility and control in the specification of presentation characteristics; 
+                 enable multiple web pages to share formatting by specifying the relevant CSS in a separate .......
+                 </div>     
+        </div>
+    </div>
+    <div>
+        <div id="conteyner">
+            <a target="_blank"  href="https://www.jetbrains.com/idea/"> <img id="bilim" src="lazım resimler/intelji.jpg" title="intelj" ></a>
+            <a target="_blank"  href="https://code.visualstudio.com/"> <img id="bilim" src="lazım resimler/VSC.png" title="visual studio code" ></a>
+            <a target="_blank"  href="https://www.mysql.com/"> <img id="bilim" src="lazım resimler/mysql.jpg" title="mysql" ></a>
+        </div>
+        <div id="conteyner">
+            <div id="yazi">The first version of IntelliJ IDEA was released in January 2001 and was one of the first available Java IDEs with advanced code navigation and code refactoring capabilities integrated.
+
+                In 2009, JetBrains released the source code for IntelliJ IDEA under the open-source Apache License 2.0.JetBrains also began distributing a limited version of IntelliJ
+                 IDEA consisting of open-sourc features under the moniker Community Edition. The commercial Ultimate
+                  Edition provides additional features and remains available for a fee.
+                
+                In a 2010 InfoWorld report, IntelliJ received the highest test center score out of the
+                 four top Java programming tools: Eclipse, IntelliJ IDEA, NetBeans and JDeveloper.
+                
+                In December 2014, Google announced version 1.0 of Android Studio, an open-source IDE for
+                 Android apps, based on the open source community edition.Other development environments
+                  based on IntelliJ's framework include AppCode, CLion, DataGrip, GoLand, PhpStorm, PyCharm,
+                   Rider, RubyMine, WebStorm, and MPS........</div>
+            <div id="yazi">Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made
+                 by Microsoft with the Electron Framework, for Windows, Linux and macOS.
+                  Features include support for debugging, syntax highlighting, intelligent code
+                   completion, snippets, code refactoring, and embedded Git. Users can change the
+                    theme, keyboard shortcuts, preferences, and install extensions that add additional functionality.
+
+                In the Stack Overflow 2021 Developer Survey, Visual Studio Code was ranked the
+                 most popular developer environment tool among 82,000 respondents, with 70% 
+                 reporting that they use it..........</div>     
+            <div id="yazi">MySQL  is an open-source relational database management system (RDBMS).
+                 Its name is a combination of "My", the name of co-founder Michael Widenius's daughter 
+                 Myand "SQL", the abbreviation for Structured Query Language. A relational database organizes
+                  data into one or more data tables in which data may be related to each other; these 
+                  relations help structure the data. SQL is a language programmers use to create, modify
+                   and extract data from the relational database, as well as control user access to the 
+                   database. In addition to relational databases and SQL, an RDBMS like MySQL works with 
+                   an operating system to implement a relational database in a computer's storage system, 
+                   manages users, allows for network access and facilitates testing database integrity and 
+                   creation of backups. .......
+                 </div>     
+        </div>
+    </div>
+    <div>
+        <div id="conteyner">
+            <a target="_blank"  href="https://tr.wikipedia.org/wiki/Atik_yaz%C4%B1l%C4%B1m_geli%C5%9Ftirme"> <img id="bilim" src="lazım resimler/Agile.png" title="agile" ></a>
+            <a target="_blank"  href="https://jmeter.apache.org/"> <img id="bilim" src="lazım resimler/jmeter.png" title="jmeter"></a>
+            <a target="_blank"  href="https://www.jenkins.io/"> <img id="bilim" src="lazım resimler/jenkins.png" title="Jenkins" ></a>
+        </div>
+        <div id="conteyner">
+            <div id="yazi">Most Agile ideas originated in the 1970s. Studies and examinations have been made 
+                about the Agile Method, which emerged as a reaction against traditional project approaches. 
+                In 1970, Dr. William Royce has outlined his specific ideas about sequential development by 
+                publishing an article discussing the management and development of large software systems.
+
+                Royce emphasized that a project can be developed like a product on an assembly line.
+                 He drew attention to the idea that each stage of development must be completed before
+                  the next stage begins. He emphasized that all developers should bring together all the 
+                  requirements of a project. He stated that the next step is to complete the entire 
+                  architecture and designs of the project. He emphasized that when these steps were completed,
+                   there was little or no contact between the expert groups that completed each phase of the 
+                   project. Therefore, the pioneers of the agile method believed that if project developers 
+                   studied the process, they would find it the most logical and useful solution to software
+                    development........</div>
+            <div id="yazi">Apache JMeter is an Apache project that can be used as a load testing tool for 
+                analyzing and measuring the performance of a variety of services, with a focus on web applications.
+
+                JMeter can be used as a unit-test tool for JDBC database connections, FTP, LDAP,web services,JMS, HTTP,
+                 generic TCP connections and OS-native processes. One can also configure JMeter as a monitor, although 
+                 this is typically used as a basic monitoring solution rather than advanced monitoring. It can be used 
+                 for some functional testing as well. Additionally Jmeter supports integration with Selenium, which 
+                 allows it to run automation scripts alongside performance or load tests
+                
+                JMeter supports variable parameterization, assertions (response validation), 
+                per-thread cookies, configuration variables and a variety of reports.
+                
+                JMeter architecture is based on plugins. Most of its "out of the box" features are
+                 implemented with plugins..........</div>     
+            <div id="yazi">Jenkins is an open-source automation tool written in Java with plugins built for 
+                continuous integration. Jenkins is used to build and test your software projects continuously
+                 making it easier for developers to integrate changes to the project, and making it easier for
+                  users to obtain a fresh build. It also allows you to continuously deliver your software by 
+                  integrating with a large number of testing and deployment technologies.
+
+                With Jenkins, organizations can accelerate the software development process through 
+                automation. Jenkins integrates development life-cycle processes of all kinds, including 
+                build, document, test, package, stage, deploy, static analysis, and much more.
+                
+                Jenkins achieves Continuous Integration with the help of plugins. Plugins allow the
+                 integration of Various DevOps stages. If you want to integrate a particular tool, 
+                 you need to install the plugins for that tool. For example Git, Maven 2 project, Amazon EC2,
+                 HTML publisher etc........
+                 </div>     
+        </div>
+    </div>
+    <div>
+            <div id="conteyner"> 
+            <a target="_blank"  href="https://tr.wikipedia.org/wiki/Atik_yaz%C4%B1l%C4%B1m_geli%C5%9Ftirme"> <img id="bilim" src="lazım resimler/SQL.png" title="SQL" ></a>
+            <a target="_blank"  href="https://jmeter.apache.org/"> <img id="bilim" src="lazım resimler/api.jpg" title="API"></a> 
+            <a target="_blank"  href="https://www.atlassian.com/software/jira"> <img id="bilim" src="lazım resimler/Jira.png" title="jira" ></a>
+        </div>
+        <div id="conteyner">
+            <div id="yazi">Structured Query Language, abbreviated as SQL is a domain-specific language used in programming
+                 and designed for managing data held in a relational database management system (RDBMS),
+                  or for stream processing in a relational data stream management system (RDSMS).
+                   It is particularly useful in handling structured data, i.e. data incorporating 
+                   relations among entities and variables.
+
+                SQL offers two main advantages over older read–write APIs such as ISAM or VSAM. Firstly, 
+                it introduced the concept of accessing many records with one single command. Secondly, 
+                it eliminates the need to specify how to reach a record, e.g. with or without an index.
+                
+                Originally based upon relational algebra and tuple relational calculus, SQL c
+                onsists of many types of statements, which may be informally classed as 
+                sublanguages, commonly: a data query language (DQL), a data definition language (DDL),
+                 a data control language (DCL), and a data manipulation language (DML). The scope of
+                  SQL includes data query, data manipulation (insert, update, and delete), data definition
+                   (schema creation and modification), and data access control. Although SQL is essentially a 
+                   declarative language (4GL), it also includes procedural elements.........</div>
+            <div id="yazi">An application programming interface is a set of definitions created for a 
+                software to use its functions defined in another software. API; It can be used for web
+                 application, operating system, database, hardware or software library. Today, it is mostly 
+                 used as a contract that provides communication between client and server in web-based 
+                 applications. So much so that the client requests data in a specific format and in any 
+                 case receives a response from the server in a specific format. This case is also called 
+                 WebAPI as a special form of API..........</div>     
+            <div id="yazi">Jira is a project development software. This software is also used to detect and
+                 fix errors in existing projects. The main page includes the dashboard, issues, projects, and
+                  other panels, respectively. With this application method, which is used in many different 
+                  sectors, especially in law and finance, the follow-up of projects is done in a much more 
+                  practical way. What is Jira, what does it do? Is it easy to use Jira and create a project?
+                  Here are all the details.
+                Jira software, which is frequently used in the human resources department, ensures that 
+                projects and works are completed in a short time and with the least error.
+                An advanced software, jira is a project creation software used in more than ten industries. 
+                This software has been developed by combining two separate applications, jira software and 
+                jira core. Various business management applications are also available in this software,
+                 in which new features have been added........
+                 </div>     
+        </div>
+    </div>
+</div>
+    </article>
+     
+    <footer>
+        <div >
+            <a href="mailto:QA_kadirTepecik@outlook.com"><i class="fa-solid fa-paper-plane"></i>Eposta</a>
+            <a target="_blank" href="https://github.com/clgnmmr"><i class="fa-brands fa-github"></i>GITHUB</a>
+            <a target="_blank" href="https://www.linkedin.com/in/kadirtepecik/"><i class="fa-brands fa-linkedin"></i>LINKEDIN</a>
+            <a target="_blank" href="https://www.facebook.com/kadir.tepecik"><i class="fa-brands fa-facebook"></i>Facebook</a>
+        </div>
+    <p> <font color="white">&copy; 2022 Powered by Kadir </font> </p>
+    </footer>                                    
+      </body>
+</html>
